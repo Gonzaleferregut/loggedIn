@@ -61,6 +61,8 @@ export default class PersonalInfo extends Component {
     console.log(this.state)
   }
 
+  // document.querySelector("form").reset(); // empty out the form after the dialog closes
+
   render() {
     return(
       <div>
