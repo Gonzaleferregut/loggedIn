@@ -3,6 +3,7 @@ import Payment from './paymentForm'
 import {Tabs, Tab} from 'material-ui/Tabs'
 import PersonalInfo from './personalInfo'
 import BlackBoard from './blackBoard'
+import Messages from './messenger';
 import '../tabs.css'
 
 const styles = {
@@ -84,12 +85,7 @@ export default class Main extends Component{
 
           <Tab label="Messages" value="c">
             <div>
-              <h2 style={styles.headline}>Controllable Tab B</h2>
-              <p>
-                This is another example of a controllable tab. Remember, if you
-                use controllable Tabs, you need to give all of your tabs values or else
-                you wont be able to select them.
-              </p>
+              <Messages/>
             </div>
           </Tab>
 

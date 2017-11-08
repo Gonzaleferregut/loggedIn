@@ -28,7 +28,6 @@ export default class PersonalInfo extends Component {
     }
     this.handleTextChange = this.handleTextChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
-
   }
 
   handleTextChange = (event) => {
@@ -50,15 +49,6 @@ export default class PersonalInfo extends Component {
   .catch(function (error) {
     console.log(error);
   });
-    this.setState({
-      studentName: "",
-      parentName: "",
-      parentEmail: "",
-      parentAddress: "",
-      parentNumber: "",
-      teacherEmail: "",
-    })
-    console.log(this.state)
   }
 
   // document.querySelector("form").reset(); // empty out the form after the dialog closes
