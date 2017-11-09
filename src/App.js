@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './components/header';
+import loginHeader from './components/login-header';
 import Main from './components/tabs';
 import Quote from './components/quote-generator';
 import Footer from './components/footer';

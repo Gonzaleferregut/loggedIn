@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../header.css';
 
 
-export default class Header extends Component {
+export default class loginHeader extends Component {
   render() {
     return(
       <div>
