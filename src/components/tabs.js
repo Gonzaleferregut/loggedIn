@@ -95,7 +95,7 @@ export default class Main extends Component{
             </div>
           </Tab>
         </Tabs>
-
+        
         <BlackBoard />
       </div>
     )
